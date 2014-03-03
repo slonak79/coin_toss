@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE94CC6E189B2E4C001FC5E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE94CC6D189B2E4C001FC5E4 /* main.cpp */; };
+		FE94CC6E189B2E4C001FC5E4 /* coin_toss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE94CC6D189B2E4C001FC5E4 /* coin_toss.cpp */; };
 		FE94CC70189B2E4C001FC5E4 /* coin_toss.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE94CC6F189B2E4C001FC5E4 /* coin_toss.1 */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		FE94CC6A189B2E4C001FC5E4 /* coin_toss */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coin_toss; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE94CC6D189B2E4C001FC5E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE94CC6D189B2E4C001FC5E4 /* coin_toss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coin_toss.cpp; sourceTree = "<group>"; };
 		FE94CC6F189B2E4C001FC5E4 /* coin_toss.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coin_toss.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 		FE94CC6C189B2E4C001FC5E4 /* coin_toss */ = {
 			isa = PBXGroup;
 			children = (
-				FE94CC6D189B2E4C001FC5E4 /* main.cpp */,
+				FE94CC6D189B2E4C001FC5E4 /* coin_toss.cpp */,
 				FE94CC6F189B2E4C001FC5E4 /* coin_toss.1 */,
 			);
 			path = coin_toss;
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE94CC6E189B2E4C001FC5E4 /* main.cpp in Sources */,
+				FE94CC6E189B2E4C001FC5E4 /* coin_toss.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
